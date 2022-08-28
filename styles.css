@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Manrope;
+    src: url('fonts/manrope/fonts/webfonts/Manrope-Regular.woff2');
+}
+@font-face{
+    font-family: Old;
+    src: url('fonts/OldEnglish/OLD.ttf');
+}
+@font-face
+{
+    font-family: Rostelecom Basis;
+    src: url("//db.onlinewebfonts.com/t/82fe5070fde20170ec8414053d0f340d.eot"); src: url("//db.onlinewebfonts.com/t/82fe5070fde20170ec8414053d0f340d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/82fe5070fde20170ec8414053d0f340d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/82fe5070fde20170ec8414053d0f340d.woff") format("woff"), url("//db.onlinewebfonts.com/t/82fe5070fde20170ec8414053d0f340d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/82fe5070fde20170ec8414053d0f340d.svg#Rostelecom Basis") format("svg");
+}
+*{
+    margin:0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 52px;
+    position: relative;
+}
+h3{
+    font-size:16px;
+    text-align:center;
+    font-weight:normal;
+    font-family: 'Manrope';
+}
+h4{
+    font-size:14px;
+    text-align: center;
+    font-weight:normal;
+    font-family: 'Rostelecom Basis';
+    opacity: 0.4;
+    margin:0px;
+}
+.menu a{
+    font-size:16px;
+    text-align:center;
+    font-weight:normal;
+    font-family: 'Manrope';
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px 0px 0px;
+    gap: 15px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    font-size:48px;
+    font-family: 'Old';
+    font-weight:normal;
+
+}
+.header_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 50px 0px;
+    gap: 24px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 41px 0px 0px;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 52px;
+}
+.footer_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    opacity:0.7;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 94px;
+    gap: 42px;
+}
+.socials h1{
+    font-family: OLD;
+    opacity:0.7;
+    font-size:32;
+    width: 1030px;
+    margin:0px;
+}
+
+.footer h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    opacity: 0.7;
+    margin:0px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 0px;
+    gap: 6px;
+    background: #F5E6F8;
+    width: 100vw;
+
+}
